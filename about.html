@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Yelken Kulübü</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #f1c40f;
+        }
+
+        .about {
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .about .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            color: #003366;
+            margin-bottom: 40px;
+        }
+
+        .about-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .about-content .text {
+            flex: 1;
+            background-color: #f7f7f7;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: #555;
+        }
+
+        .about-content .text p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .about-content .image {
+            flex: 1;
+            text-align: center;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .about-content .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>Kulübümüzün Hikayesi</h2>
+            <div class="about-content">
+                <div class="text">
+                    <p>Yelken Kulübü, 1980 yılında deniz tutkunlarının bir araya gelmesiyle kuruldu. Bugüne kadar binlerce bireye yelken eğitimi verildi, pek çok ulusal yarışta ödüller kazandık.</p>
+                    <p>Misyonumuz, yelken sporunu yaygınlaştırmak, her yaştan bireyin denizle tanışmasını sağlamaktır. Kulübümüz, sporcularına en iyi eğitimi sunmak ve her seviyedeki katılımcıya yarışma imkanı sağlamaktadır.</p>
+                </div>
+                <div class="image">
+                    <img src="images/about.jpg" alt="Kulüp Hakkında Görsel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yelken Kulübü | Tüm Hakları Saklıdır</p>
+    </footer>
+    
+</body>
+</html>

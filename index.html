@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelken Kulübü</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            padding: 20px 0;
+        }
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul li {
+            margin: 0 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+        header nav ul li a:hover {
+            color: #a7a8ea;
+        }
+        .hero {
+            background: url('images/background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .cta-btn {
+            background-color: #516ff4;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-btn:hover {
+            background-color: #98d5f4;
+        }
+        .intro {
+            background-color: white;
+            padding: 60px 0;
+        }
+        .intro .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .intro-item {
+            flex: 1;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(36, 2, 120, 0.1);
+        }
+        .intro-item h3 {
+            font-size: 22px;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        .intro-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Yelkenle Özgürlüğü Keşfet</h2>
+            <p>Denizle iç içe olmak, yeni dostluklar kurmak ve yelken becerilerinizi geliştirmek için doğru yerdesiniz!</p>
+            <a href="about.html" class="cta-btn">Hakkımızda Daha Fazla</a>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro-item">
+                <h3>Kulübümüz</h3>
+                <p>Deniz sporları tutkunları için kurduğumuz kulübümüz, deneyimli eğitmenler eşliğinde yelken eğitimleri ve etkinlikleri sunuyor.</p>
+            </div>
+            <div class="intro-item">
+                <h3>Eğitimler</h3>
+                <p>Başlangıç seviyesinden ileri seviyeye kadar çeşitli yelken eğitimleri ile denizde kendinizi daha özgür hissedeceksiniz.</p>
+            </div>
+            <div class="intro-item">
+                <h3>Yelken Yarışları</h3>
+                <p>Yarışlarımıza katılarak, takım çalışması ve strateji geliştirme konusunda yeni beceriler kazanabilirsiniz.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yelken Kulübü | Tüm Hakları Saklıdır</p>
+        </div>
+    </footer>
+</body>
+</html>

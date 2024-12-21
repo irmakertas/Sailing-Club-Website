@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetler - Yelken Kulübü</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #f1c40f;
+        }
+
+        .services {
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .services .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            color: #003366;
+            margin-bottom: 40px;
+        }
+
+        .service-items {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            flex: 1;
+            background-color: #f7f7f7;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(249, 248, 248, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .service-item h3 {
+            font-size: 24px;
+            color: #003366;
+            margin-bottom: 15px;
+        }
+
+        .service-item p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Yelken Kulübü</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <h2>Hizmetlerimiz</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="images/egitim.jpg" alt="Yelken Eğitimi">
+                    <h3>Yelken Eğitimi</h3>
+                    <p>Başlangıç seviyesinden profesyonel yarış seviyesine kadar yelken eğitimi verilmektedir. Deneyimli eğitmenler eşliğinde teorik ve pratik eğitimler sunuyoruz.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/yarislar.jpg" alt="Yarışlar ve Etkinlikler">
+                    <h3>Yarışlar ve Etkinlikler</h3>
+                    <p>Kulübümüz, her yıl çeşitli yelken yarışları ve etkinlikler düzenler. Katılımcılar, bu organizasyonlarda kendilerini test edebilirler.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/kiralama.jpg" alt="Yelkenli Kiralama">
+                    <h3>Yelkenli Kiralama</h3>
+                    <p>Kulübümüz üyelerine, yelkenli kiralama imkanı sunarak, denizle daha fazla vakit geçirmelerini sağlıyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yelken Kulübü | Tüm Hakları Saklıdır</p>
+        </div>
+    </footer>
+
+</body>
+</html>
